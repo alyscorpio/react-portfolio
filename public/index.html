@@ -1,43 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html lang="en-us">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AlysDickersonPortfolio</title>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet"> 
+</head>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<body>
+
+    <header class="hero-img">
+
+        <section class="container">
+
+            <h1 class="first-name">ALYS</h1>
+            <h1 class="last-name">DICKERSON</h1>
+
+            <nav>
+                <a href="#top">ABOUT</a>
+                <a href="#middle">WORK</a>
+                <a href="#bottom">CONTACT</a>
+            </nav>
+
+        </section>
+
+    </header>
+
+    <main>
+        <section class="about" id="top">
+
+            <h3 class="label">Hi, I'm Alys. Nice to meet you.</h3>
+
+            <img id="pic-me" src="assets/photos/profile-me.jpg" alt="Alys standing in front of colorful wall">
+
+            <article id="bio">
+                <p>
+                    I am a graphic designer, web developer, and multimedia artist besed in New York City and Los Angeles.
+                    <br><br>
+                    After learning the basics of graphic design in high school, I taught myself how to use Adobe Photoshop, InDesign, and Illustrator. 
+                    Once I felt proficient enough, I reached out to a local boutique and offered my services as a graphic design intern. The owner 
+                    took me on, and during my time there I created promotional material, social media content, and in-store signage. 
+                    When it was time for college in 2017, I decided to take a different path, choosing a major in Media, Culture, and the Arts. 
+                    This allowed me to take classes in design while also building my knowledge of the media landscape,
+                    and art history. 
+                    <br><br>
+                    Always in persuit of learning something new, I recently enrolled in a coding class at UCLA. So far, I love being able to 
+                    create something that is interactive, and designing through a new medium.
+                    <br><br>
+                    When I'm not designing or creating web applications, I love to read and write poetry, attend concerts, paint, and cook. 
+                </p>
+            </article>
+
+        </section>
+
+        <section class="work" id="middle">
+            <div class="label2">
+                <h2>Work</h2>
+            </div>
+            <div class="grid-time">
+
+                <div id="project-1">
+                    <a href="https://randonrussell85.github.io/FliccPicker/">
+                        <img alt="FliccPicker" src="./assets/images/FliccPicker.png"
+                        max-width="422px" height="350px" display="block" margin-right="auto" margin-left="auto">
+                    </a>
+                </div>
+    
+                <div id="project-2">
+                    <a href="https://upper-beaver-88035.herokuapp.com/">
+                        <img alt="GiveHub" src="./assets/images/givehub.png"
+                        max-width="422px" height="350px" display="block" margin-right="auto" margin-left="auto">
+                    </a>
+                </div>
+    
+                <div id="project-3">
+                    <a href="https://audio-freq.herokuapp.com/">
+                        <img alt="AudioFreq" src="./assets/images/welcome.jpg"
+                        max-width="422px" height="350px" display="block" margin-right="auto" margin-left="auto">
+                    </a>
+                </div>
+    
+                <div id="project-4">
+                    <a href="https://alyscorpio.github.io/weather_dashboard/">
+                        <img alt="AudioFreq" src="./assets/images/weather-dashboard.png"
+                        max-width="422px" height="350px" display="block" margin-right="auto" margin-left="auto">
+                    </a>
+                </div>
+    
+                <div id="project-5">
+                    <a href="https://alyscorpio.github.io/RudePasswordGenerator/">
+                        <img alt="AudioFreq" src="./assets/images/rude-password.png"
+                        max-width="422px" height="350px" display="block" margin-right="auto" margin-left="auto">
+                    </a>
+                </div>
+    
+                <div id="project-6">
+                    <a href="https://alyscorpio.github.io/work_day_scheduler/">
+                        <img alt="AudioFreq" src="./assets/images/work-day-scheduler.png"
+                        max-width="422px" height="350px" display="block" margin-right="auto" margin-left="auto">
+                    </a>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="contact" id="bottom">
+
+            <div class="label3">
+                <h2>Contact me</h2>
+            </div>
+            <article>
+                <section>
+                    <a class="links" href="mailto:alyssad1182@gmail.com">Email</a>
+                    <a class="links" href="https://github.com/alyscorpio" target="_blank">GitHub</a>
+                    <a class="links" href="www.linkedin.com/in/alysdickerson" target="_blank">LinkedIn</a>
+                </section>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p class="credit">site by Alys Dickerson</p>
+    </footer>
+
+</body>
+
 </html>
